@@ -1,0 +1,44 @@
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    background: linear-gradient(to right, rgba(213, 32, 71, .8), rgba(238, 61, 27, .8)),
+     url(../img/Rectangle3.jpg);
+    background-position:  center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 670px;
+}
+
+.intro_inner{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.intro_logo{
+    width: fit-content;
+    align-self: center;
+
+}
+.intro_logo h1{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 72px;
+    font-weight: bold; 
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.intro_content{
+    width: 540px;
+
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    align-self: center;
+}

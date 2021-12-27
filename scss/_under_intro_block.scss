@@ -1,0 +1,37 @@
+.under_intro_block{
+    width: 100%;
+    background-color: #fff;
+
+}
+.under_intro_block_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 95px;
+    padding-bottom: 95px;
+    flex-wrap: wrap;
+}
+
+.under_intro_block h2{
+    color: black;
+    font-size: 36px;
+    width: 445px;
+
+}
+.content_under_intro_block p{
+    color: black;
+    font-size: 14px;
+    width: 445px;
+}
+.content_under_intro_block_link{
+    color: #ED4C5C;
+    text-decoration: none
+}
+
+.main_video video{
+    width: 445px;
+    height: 311px;
+    object-fit: cover;
+    border-radius: 15px;
+    
+}

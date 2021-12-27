@@ -1,0 +1,21 @@
+.nav{
+    text-transform: uppercase;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.nav_link{
+    color: #fff;
+    text-decoration: none;
+
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px;
+
+}
+.nav_link:hover{
+    font-weight: bold;
+
+}
