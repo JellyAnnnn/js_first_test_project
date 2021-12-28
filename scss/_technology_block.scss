@@ -1,0 +1,50 @@
+.technology_block {
+    background-color: #ffffff;
+    padding-top: 63px;
+
+    h2 {
+        text-align: center;
+        font-size: 36px;
+    }
+}
+
+.technology_content {
+    padding-top: 35px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    h2 {
+        text-align: center;
+        font-size: 100px;
+        color: rgba(16, 16, 16, 0.08);
+        margin: 0 69px;
+        position: relative;
+        z-index: 2;
+    }
+}
+
+.technology_items{
+
+    .svg_box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -70px;
+    }
+    
+    h3 {
+        text-align: center;
+        font-size: 18px;
+        font-style: bold;
+        
+    }
+    p {
+        align-self: center;
+        text-align: center;
+        font-size: 12px;
+        width: 191px;
+        
+    }
+}
